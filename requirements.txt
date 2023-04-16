@@ -9,4 +9,3 @@ torch
 tensorflow
 matplotlib
 torch
-warnings
