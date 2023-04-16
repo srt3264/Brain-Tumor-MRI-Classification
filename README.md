@@ -21,27 +21,29 @@ Download the Brain Tumor MRI Dataset from Kaggle and extract it to the data dire
 ### Building the Classification Model
 To build the classification model, run the train.py script. This script reads the MRI data from the data directory, preprocesses it, and trains a convolutional neural network (CNN) model using Keras.
 
-### Copy code
 ```python train.py```
+
 The trained model is saved in the models directory as brain_tumor_classifier.h5.
 
 ### Adding Synthetic Noise to the Data
 To add synthetic noise to the MRI scans, run the add_noise.py script. This script reads the MRI data from the data directory, adds various types of noise to the images, and saves the noisy images in the noisy_data directory.
 
-## Copy code
 ```python add_noise.py```
 
 ## Testing the Classifier on Noisy Data
 To test the previously built classification model on the noisy data, run the test_noisy_data.py script. This script reads the noisy MRI data from the noisy_data directory, preprocesses it, and tests the classifier on the noisy data.
 
-Copy code
-python test_noisy_data.py
-Retraining the Classifier Using Noisy Data
+
+```python test_noisy_data.py``` 
+
+## Retraining the Classifier Using Noisy Data
 To retrain the classification model using the noisy data, run the retrain.py script. This script reads the MRI data from the data and noisy_data directories, preprocesses it, and retrains the CNN model using Keras.
 
-Copy code
-python retrain.py
+
+```python retrain.py```
+
 The retrained model is saved in the models directory as noisy_brain_tumor_classifier.h5.
 
-Conclusion
+## Conclusion
 This project demonstrates how to build a classification model on brain tumor MRI data and how to add synthetic noise to the data to simulate real-world scenarios. The project also shows how retraining the classifier using the noisy data can improve its performance on noisy data.
+****put results here**** 
