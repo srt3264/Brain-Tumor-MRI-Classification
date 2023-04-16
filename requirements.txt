@@ -9,3 +9,4 @@ torch
 tensorflow
 matplotlib
 torch
+opencv-python
