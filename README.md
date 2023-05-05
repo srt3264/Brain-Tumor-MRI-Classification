@@ -8,6 +8,14 @@ The project has two main phases:
 2. **Adding synthetic noise and other conditions to the data**: In this phase, we introduce synthetic noise, motion blur, and synthetically lower the resolution to the brain MRI scans to simulate real-world scenarios where scans may be noisy or distorted. We then test the previously built classification model on the noisy data to see how well it still works.
 3. **Retraining the classifier using the noisy data**: In this phase, we retrain the classification model using the noisy data to see if it performs better on the noisy data.
 
+
+[Here is a link to the final paper](https://github.com/srt3264/Brain-Tumor-MRI-Classification/blob/main/Final_Paper.pdf)
+
+
+[Here is a link to the final presentation](https://github.com/srt3264/Brain-Tumor-MRI-Classification/blob/main/ML%20imaging%20powerpoint.pdf)
+
+
+
 ### For phase 1, below are evaluation graphs for the performance of the baseline model 
 
 ![download-23](https://user-images.githubusercontent.com/110945807/236570310-d87dfde0-eeb2-4f8a-8a26-1f31d2194f38.png)
@@ -89,8 +97,3 @@ Below is a table summarizing the test and train data split.
 ![download-29](https://user-images.githubusercontent.com/110945807/236570653-d5abced0-9f75-41ea-85e2-6525825bf177.png)
 
 
-
-[Here is a link to the final paper](https://github.com/srt3264/Brain-Tumor-MRI-Classification/blob/main/Final_Paper.pdf)
-
-
-[Here is a link to the final presentation](https://github.com/srt3264/Brain-Tumor-MRI-Classification/blob/main/ML%20imaging%20powerpoint.pdf)
