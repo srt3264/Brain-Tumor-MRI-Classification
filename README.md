@@ -1,5 +1,4 @@
-# Brain Tumor MRI Classification
-
+theme: minima
 
 ## Overview
 This project aims to build a classification model on brain tumor data obtained from the Brain Tumor MRI Dataset on Kaggle. The data consists of magnetic resonance imaging (MRI) scans of the brain, with each scan labeled as either having a tumor or being a healthy scan.
